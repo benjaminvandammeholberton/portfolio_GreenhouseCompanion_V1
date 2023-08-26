@@ -1,0 +1,1 @@
+- quand on veux ajouter un objet dans la base de donnee deja existant

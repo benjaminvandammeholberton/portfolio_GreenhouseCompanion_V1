@@ -1,0 +1,50 @@
+greenhouse_companion_backend
+├── AUTHORS
+├── README.md
+├── api
+│   ├── __init__.py
+│   └── v1
+│       ├── __init__.py
+│       ├── app.py
+│       └── views
+│           ├── __init__.py
+│           ├── garden_area.py
+│           ├── test_garden_area.py
+│           └── vegetable_manager.py
+├── create_garden.py
+├── curl_command.txt
+├── db_set
+│   ├── setup_mysql_dev.py
+│   ├── setup_mysql_dev.sql
+│   ├── setup_mysql_test.py
+│   └── setup_mysql_test.sql
+├── dumb_datas.py
+├── erreur.txt
+├── models
+│   ├── __init__.py
+│   ├── base_model.py
+│   ├── diary.py
+│   ├── engine
+│   │   ├── __init__.py
+│   │   └── db_storage.py
+│   ├── garden_area.py
+│   ├── sensor_datas.py
+│   ├── vegetable_infos.py
+│   └── vegetable_manager.py
+├── requirements.txt
+└── tests
+    ├── __init__.py
+    └── test_models
+        ├── __init__.py
+        ├── test_amenity.py
+        ├── test_base_model.py
+        ├── test_city.py
+        ├── test_engine
+        │   ├── __init__.py
+        │   └── test_db_storage.py
+        ├── test_place.py
+        ├── test_review.py
+        ├── test_state.py
+        └── test_user.py
+
+10 directories, 38 files
