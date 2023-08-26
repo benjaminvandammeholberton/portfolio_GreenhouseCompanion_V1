@@ -30,6 +30,7 @@ app = Flask(__name__)
 # Register the blueprint
 app.register_blueprint(app_views)
 
+
 # Implementation of CORS to enable access from any origin
 CORS(app, resources={r"/api/*": {"origins": "0.0.0.0"}})
 

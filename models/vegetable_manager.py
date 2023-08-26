@@ -5,7 +5,7 @@ from models.base_model import BaseModel, Base
 from models.garden_area import GardenArea
 from os import getenv
 import sqlalchemy
-from sqlalchemy import Column, String, ForeignKey, Date, Float, Boolean
+from sqlalchemy import Column, String, ForeignKey, Date, Float, Boolean, Integer
 from sqlalchemy.orm import relationship
 from datetime import datetime
 
@@ -14,8 +14,8 @@ class VegetableManager(BaseModel, Base):
     """Representation of VegetableManager"""
     __tablename__ = 'vegetable_manager'
     name = Column(String(128), nullable=False)
-    # Use a different name to store the actual value
-    _sowed = Column('sowed', Boolean, default=False)
+    quantity = Column(Integer, nullable=False)
+    sowed = Column(Boolean, default=False)
     planted = Column(Boolean, default=False)
     sowing_date = Column(Date)
     planting_date = Column(Date)
@@ -31,13 +31,3 @@ class VegetableManager(BaseModel, Base):
     def __init__(self, *args, **kwargs):
         """initializes VegetableManager"""
         super().__init__(*args, **kwargs)
-
-    @property
-    def sowed(self):
-        return self._sowed
-
-    @sowed.setter
-    def sowed(self, value):
-        if value and not self._sowed:
-            self.sowing_date = datetime.now().date()
-        self._sowed = value

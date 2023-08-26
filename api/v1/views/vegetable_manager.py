@@ -2,7 +2,7 @@
 CRUD operations on the "vegetable_manager" resource."""
 
 from api.v1.views import app_views
-from flask import jsonify, request, abort
+from flask import jsonify, request, abort, render_template
 from models import storage
 from models.vegetable_manager import VegetableManager
 
@@ -14,6 +14,7 @@ def get_all_vegetable_manager():
     of JSON objects.
     """
     vegetable_manager = storage.all(VegetableManager).values()
+    # return render_template('vegetable_manager.html', vegetables=vegetable_manager)
     return jsonify([vegetable.to_dict() for vegetable in vegetable_manager])
 
 
@@ -51,6 +52,7 @@ def create_vegetable_manager():
     Creates a new vegetable area based on the provided details and returns
     its details as a JSON object.
     """
+    # return ("hello")
     data = request.get_json()
     if not data:
         return jsonify({"error": "Not a JSON"}), 400
@@ -78,5 +80,4 @@ def update_vegetable_manager(vegetable_manager_id):
                 setattr(vegetable, key, value)
         vegetable.save()
         return jsonify(vegetable.to_dict())
-    abort(404)
     abort(404)
