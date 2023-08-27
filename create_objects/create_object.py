@@ -73,7 +73,7 @@ if __name__ == "__main__":
 
         if choice == "1":
             garden_area_data = {
-                "name": "round",
+                "name": "left",
                 "surface": "3",
                 "notes": "left side of the greenhouse"
             }

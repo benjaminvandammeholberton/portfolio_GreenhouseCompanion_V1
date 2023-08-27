@@ -5,6 +5,7 @@ from api.v1.views import app_views
 from flask import jsonify, request, abort, render_template
 from models import storage
 from models.vegetable_manager import VegetableManager
+from models.garden_area import GardenArea
 
 
 @app_views.route('/vegetable_manager', methods=['GET'], strict_slashes=False)
@@ -14,8 +15,12 @@ def get_all_vegetable_manager():
     of JSON objects.
     """
     vegetable_manager = storage.all(VegetableManager).values()
+    garden_area = storage.all(GardenArea).values()
     # return render_template('vegetable_manager.html', vegetables=vegetable_manager)
-    return jsonify([vegetable.to_dict() for vegetable in vegetable_manager])
+
+    # Combine the data from both dictionaries
+    combined_data = list(vegetable_manager) + list(garden_area)
+    return jsonify([data.to_dict() for data in combined_data])
 
 
 @app_views.route('/vegetable_manager/<vegetable_manager>', methods=['GET'],

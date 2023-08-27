@@ -15,6 +15,7 @@ class VegetableManager(BaseModel, Base):
     __tablename__ = 'vegetable_manager'
     name = Column(String(128), nullable=False)
     quantity = Column(Integer, nullable=False)
+    # garden_area_name = Column(String(128))
     sowed = Column(Boolean, default=False)
     planted = Column(Boolean, default=False)
     sowing_date = Column(Date)
@@ -31,3 +32,12 @@ class VegetableManager(BaseModel, Base):
     def __init__(self, *args, **kwargs):
         """initializes VegetableManager"""
         super().__init__(*args, **kwargs)
+
+    # try change to _dict
+    # def to_dict(self):
+    #     new_dict = super().to_dict()  # Call the base class's to_dict() method
+
+    #     if self.garden_area:
+    #         new_dict["garden_area_name"] = self.garden_area.name
+
+    #     return new_dict
