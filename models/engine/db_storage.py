@@ -43,11 +43,6 @@ class DBStorage:
         """
         Instantiate a DBStorage object
         """
-        # HBNB_MYSQL_USER = getenv('HBNB_MYSQL_USER')
-        # HBNB_MYSQL_PWD = getenv('HBNB_MYSQL_PWD')
-        # HBNB_MYSQL_HOST = getenv('HBNB_MYSQL_HOST')
-        # HBNB_MYSQL_DB = getenv('HBNB_MYSQL_DB')
-        # HBNB_ENV = getenv('HBNB_ENV')
         GREENHOUSE_MYSQL_USER = "greenhouse_dev"
         GREENHOUSE_MYSQL_PWD = "greenhouse_dev_pwd"
         GREENHOUSE_MYSQL_HOST = "localhost"
