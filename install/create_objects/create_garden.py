@@ -49,6 +49,8 @@ if __name__ == "__main__":
         name = input("Name: ")
         surface = input("Surface: ")
         notes = input("Notes: ")
+        if surface == "":
+            surface = None
 
         # Only call the function if name and surface are not None
         create_garden_area(name, surface, notes)
