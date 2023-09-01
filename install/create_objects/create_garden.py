@@ -33,9 +33,11 @@ def create_garden_area(name, surface, notes):
     if response.status_code == 201:
         print("Garden created successfully!")
         garden_area_data = response.json()
+
+        print("+++++++++++++++++++++++++++")
         print("Created Garden:")
-        for key in keys_to_print:
-            print(f"{key.capitalize()}: {garden_area_data.get(key)}")
+        print("\n".join([f"{key} = {value}" for key,
+              value in garden_area_data.items()]))
         print("+++++++++++++++++++++++++++")
     else:
         print("Error:", response.text)
@@ -46,15 +48,7 @@ if __name__ == "__main__":
         print("Enter the following information for the garden:")
         name = input("Name: ")
         surface = input("Surface: ")
-
-        # Check if name or surface is empty
-        if name is "" or surface is "":
-            print("Name or surface cannot be None. Exiting...")
-            sys.exit(1)  # Exit the program with an error code
-
         notes = input("Notes: ")
-
-        keys_to_print = ["name", "surface", "notes"]
 
         # Only call the function if name and surface are not None
         create_garden_area(name, surface, notes)
