@@ -6,12 +6,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Portfolio</title>
   <link rel="stylesheet" href="style.css" />
-  <link rel="stylesheet" />
   <script src="https://kit.fontawesome.com/a7a8119638.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <!-- <header>Laval, Thursday, 29th of August</header> -->
+  <!--------------------------------------------------------------------------------------
+      --------------------------------------- NAVBAR -----------------------------------------
+      --------------------------------------------------------------------------------------->
   <div class="container">
     <aside>
       <ul>
@@ -35,49 +37,49 @@
     <main>
       <div class="box box1">
         <h2>Plant Manager</h2>
-        <form>
+        <form id="vegetableForm">
           <div class="form_line1">
             <label for="gender">Name:</label>
-            <select id="gender" name="gender">
-              <option value="male">Tomato</option>
-              <option value="female">Carrot</option>
-              <option value="other">Radish</option>
+            <select id="name" name="name">
+              <option value="tomato">Tomato</option>
+              <option value="carrot">Carrot</option>
+              <option value="radish">Radish</option>
             </select>
           </div>
-          <div class="form_line1">
-            <label for="gender">Variety:</label>
-            <input id="gender" name="gender">
+          <!-- <div class="form_line1">
+            <label for="variety">Variety:</label>
+            <input id="variety" name="variety">
             </select>
-          </div>
+          </div> -->
           <div class="form_line2">
             <div class="form_quantity">
-              <label for="gender">Quantity:</label>
-              <input id="gender" name="gender">
+              <label for="quantity">Quantity:</label>
+              <input type="number" id="quantity" name="quantity">
             </div>
-            <div class="form_garden_area">
-              <label for="gender">Garden Area:</label>
-              <select id="gender" name="gender">
-                <option value="male">Left</option>
-                <option value="other">Middle</option>
-                <option value="female">Right</option>
-                <option value="other">Back</option>
+            <!-- <div class="form_garden_area">
+              <label for="garden_area">Garden Area:</label>
+              <select id="garden_area" name="garden_area">
+                <option value="left">Left</option>
+                <option value="middle">Middle</option>
+                <option value="right">Right</option>
+                <option value="back">Back</option>
               </select>
-            </div>
+            </div> -->
           </div>
           <div class="form_line3">
-            <div class="form_sowed">
-              <label for="subscribe">Sowed:</label>
-              <input type="checkbox" id="subscribe" name="subscribe" />
-            </div>
-            <div class="form_planted">
-              <label for="subscribe">Planted:</label>
-              <input type="checkbox" id="subscribe" name="subscribe" />
-            </div>
+            <!-- <div class="form_sowed">
+              <label for="sowed">Sowed:</label>
+              <input type="checkbox" id="sowed" name="sowed" />
+            </div> -->
+            <!-- <div class="form_planted">
+              <label for="planted">Planted:</label>
+              <input type="checkbox" id="planted" name="planted" />
+            </div> -->
           </div>
-          <div class="form_line1">
-            <label for="message">Notes:</label>
-            <textarea id="message" name="message" rows="4"></textarea>
-          </div>
+          <!-- <div class="form_line1">
+            <label for="notes">Notes:</label>
+            <textarea id="notes" name="notes" rows="4"></textarea>
+          </div> -->
           <button type="submit">Add Vegetable</button>
         </form>
       </div>
@@ -189,6 +191,7 @@
       </div>
     </main>
   </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
