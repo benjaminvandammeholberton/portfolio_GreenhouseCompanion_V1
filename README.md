@@ -19,7 +19,7 @@ Greenhouse Companion leverages a variety of technologies to achieve its function
 
 2. **Forecast**: The Forecast module retrieves real-time weather data from an external API. This feature keeps users informed about weather conditions, aiding in planning gardening activities.
 
-3. **To-Do List**: The To-Do List module incorporates SQLite for data storage, assisting users in efficiently organizing tasks alongside plant care.
+3. **To-Do List**: The To-Do List, assisting users in efficiently organizing tasks alongside plant care. The module interacts with a backend powered by a RESTful API, facilitating CRUD operations for effective plant record management.
 
 4. **Sensor Data Display**: The Sensor Data module retrieves information from MySQL databases and visualizes the data in various formats, helping users understand their garden's well-being.
 

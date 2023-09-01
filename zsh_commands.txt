@@ -1,0 +1,1 @@
+tree -I "venv|__pycache__" greenhouse_companion_backend > tree_output.txt --> to get the tree of a folder

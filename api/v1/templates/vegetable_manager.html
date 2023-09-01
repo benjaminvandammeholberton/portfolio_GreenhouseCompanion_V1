@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vegetable Manager</title>
+</head>
+<body>
+    <h1>Vegetable Manager</h1>
+    <ul>
+        {% for vegetable in vegetables %}
+            <li>
+                <strong>Name:</strong> {{ vegetable.name }}<br>
+                <strong>Sowed:</strong> {{ "Yes" if vegetable.sowed else "No" }}<br>
+                <strong>Planted:</strong> {{ "Yes" if vegetable.planted else "No" }}<br>
+                <strong>Harvest Date:</strong> {{ vegetable.harvest_date or "Not specified" }}<br>
+                <strong>Notes:</strong> {{ vegetable.notes or "No notes" }}
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
