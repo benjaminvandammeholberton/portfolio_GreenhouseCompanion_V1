@@ -60,52 +60,27 @@ curl http://127.0.0.1:5000
 ### Garden Areas
 
 - **GET /garden_area:** Retrieve a list of all garden areas.
+```curl http://127.0.0.1:5000/garden_area```
+
 - **GET /garden_area/<garden_area_id>**: Retrieve details of a specific garden area by its ID.
 - **POST /garden_area**: Create a new garden area by providing JSON data.
+  ```curl -X POST -H "Content-Type: application/json" -d '{"name": "My Garden", "surface": 100.0}' http://127.0.0.1:5000/garden_area```
 - **PUT /garden_area/<garden_area_id>**: Update an existing garden area by its ID using JSON data.
+  ```curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Garden", "surface": 120.0}' http://127.0.0.1:5000/garden_area/GARDEN_AREA_ID```
 - **DELETE /garden_area/<garden_area_id>**: Delete a garden area by its ID.
+```curl -X DELETE http://127.0.0.1:5000/garden_area/GARDEN_AREA_ID```
 
 ### Vegetables
 
 - **GET /vegetables:** Retrieve a list of all vegetables.
+```curl http://127.0.0.1:5000/vegetables```
 - **GET /vegetables/<vegetable_id>**: Retrieve details of a specific vegetable by its ID.
 - **POST /vegetables**: Create a new vegetable by providing JSON data.
+ ```curl -X POST -H "Content-Type: application/json" -d '{"name": "Carrot", "variety": "Orange", "days_to_maturity": 60}' http://127.0.0.1:5000/vegetables```
 - **PUT /vegetables/<vegetable_id>**: Update an existing vegetable by its ID using JSON data.
+  ```curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Carrot", "variety": "Red", "days_to_maturity": 55}' http://127.0.0.1:5000/vegetables/VEGETABLE_ID```
 - **DELETE /vegetables/<vegetable_id>**: Delete a vegetable by its ID.
 Using the API
-
-Here are some sample curl commands to interact with the API:
-
-- To **retrieve a list of all garden areas**:
-
-  ```curl http://127.0.0.1:5000/garden_area```
-  
-- To **create a new garden area** (replace JSON_DATA with your data):
-
-  ```curl -X POST -H "Content-Type: application/json" -d '{"name": "My Garden", "surface": 100.0}' http://127.0.0.1:5000/garden_area```
-  
-- To **update an existing garden area** (replace GARDEN_AREA_ID and JSON_DATA with your data):
-
-  ```curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Garden", "surface": 120.0}' http://127.0.0.1:5000/garden_area/GARDEN_AREA_ID```
-  **
-- To **delete a garden area (replace GARDEN_AREA_ID with the ID of the garden area to delete):
-
-  ```curl -X DELETE http://127.0.0.1:5000/garden_area/GARDEN_AREA_ID```
-  
-- To **retrieve a list of all vegetables**:
-
-  ```curl http://127.0.0.1:5000/vegetables```
-  
-- To **create a new vegetable** (replace JSON_DATA with your data):
-
-  ```curl -X POST -H "Content-Type: application/json" -d '{"name": "Carrot", "variety": "Orange", "days_to_maturity": 60}' http://127.0.0.1:5000/vegetables```
-  
-- To **update an existing vegetable** (replace VEGETABLE_ID and JSON_DATA with your data):
-
-  ```curl -X PUT -H "Content-Type: application/json" -d '{"name": "Updated Carrot", "variety": "Red", "days_to_maturity": 55}' http://127.0.0.1:5000/vegetables/VEGETABLE_ID```
-  
-- To **delete a vegetable** (replace VEGETABLE_ID with the ID of the vegetable to delete):
-
   ```curl -X DELETE http://127.0.0.1:5000/vegetables/VEGETABLE_ID```
 
 ## Conclusion
