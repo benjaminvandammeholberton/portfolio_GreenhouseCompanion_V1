@@ -1,15 +1,15 @@
 #!/usr/bin/python
-""" holds class Place"""
+""" holds class VegetableInfos"""
 import models
 from models.base_model import BaseModel, Base
 from os import getenv
 import sqlalchemy
-from sqlalchemy import Column, String, Integer, Float, ForeignKey, Table, Date
+from sqlalchemy import Column, String, Integer, Float, ForeignKey, Date
 from sqlalchemy.orm import relationship
 
 
 class VegetableInfos(BaseModel, Base):
-    """Representation of Place """
+    """Representation of VegetableInfos """
     __tablename__ = 'vegetable_infos'
     name = Column(String(20), nullable=False)
     family = Column(String(20))

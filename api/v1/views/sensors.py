@@ -52,5 +52,7 @@ def create_sensors():
     for key, value in data.items():
         if key in sensors_list and int(value) > 2500:
             response['relay'] = True
+            print(response)
             return jsonify(response) , 201
+    print(response)
     return jsonify(new_sensor.to_dict()) , 201
