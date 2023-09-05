@@ -61,9 +61,9 @@ headers = {"Content-Type": "application/json"}
 # }
 
 data = {
-    "name": "Brocoli ",
-    "garden_area_id": "1187519c-c059-4a58-8b18-815ae4774095",
-    "quantity": 3,
+    "name": "Carrots",
+    "garden_area_id": "12e6d5cd-420a-47b1-bc77-0d192df55b34",
+    "quantity": 50,
     "sowed": True,
     "planted": None,
     "sowing_date": None,
