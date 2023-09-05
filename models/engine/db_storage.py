@@ -45,10 +45,10 @@ class DBStorage:
         """
         Instantiate a DBStorage object
         """
-        GREENHOUSE_MYSQL_USER = "greenhouse_dev"
-        GREENHOUSE_MYSQL_PWD = "greenhouse_dev_pwd"
-        GREENHOUSE_MYSQL_HOST = "localhost"
-        GREENHOUSE_MYSQL_DB = "greenhouse_dev_db"
+        GREENHOUSE_MYSQL_USER = "u105014328_greenhouse_dev"
+        GREENHOUSE_MYSQL_PWD = "Greenhouse_pwd1"
+        GREENHOUSE_MYSQL_HOST = "153.92.220.101"
+        GREENHOUSE_MYSQL_DB = "u105014328_greenhouse"
         GREENHOUSE_ENV = getenv('HBNB_ENV')
         self.__engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'.
                                       format(GREENHOUSE_MYSQL_USER,

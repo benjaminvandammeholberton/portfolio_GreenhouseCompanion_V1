@@ -1,6 +1,6 @@
 import requests
 
-url = "http://127.0.0.1:5000/api/v1/vegetable_manager"
+url = "http://127.0.0.1:5001/api/v1/vegetable_manager"
 headers = {"Content-Type": "application/json"}
 
 # name, sowed, planted, sowing_date, planting_date,
@@ -62,7 +62,7 @@ headers = {"Content-Type": "application/json"}
 
 data = {
     "name": "Brocoli ",
-    "garden_area_id": "3d5f2a39-3eb5-4927-914c-f9bcc3df8f72",
+    "garden_area_id": "1187519c-c059-4a58-8b18-815ae4774095",
     "quantity": 3,
     "sowed": True,
     "planted": None,
