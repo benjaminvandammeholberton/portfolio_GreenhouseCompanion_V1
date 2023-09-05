@@ -1,0 +1,1334 @@
+[
+    {
+        "sensor_1": 1719,
+        "sensor_2": 1921,
+        "sensor_3": 1808,
+        "timestamp": "2023-09-04 23:37:19"
+    },
+    {
+        "sensor_1": 1631,
+        "sensor_2": 1820,
+        "sensor_3": 1712,
+        "timestamp": "2023-09-04 23:38:19"
+    },
+    {
+        "sensor_1": 1623,
+        "sensor_2": 1684,
+        "sensor_3": 1646,
+        "timestamp": "2023-09-04 23:39:20"
+    },
+    {
+        "sensor_1": 1621,
+        "sensor_2": 1812,
+        "sensor_3": 1722,
+        "timestamp": "2023-09-04 23:41:15"
+    },
+    {
+        "sensor_1": 1500,
+        "sensor_2": 1914,
+        "sensor_3": 1749,
+        "timestamp": "2023-09-04 23:42:15"
+    },
+    {
+        "sensor_1": 1611,
+        "sensor_2": 1651,
+        "sensor_3": 1659,
+        "timestamp": "2023-09-04 23:43:16"
+    },
+    {
+        "sensor_1": 1611,
+        "sensor_2": 1613,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-04 23:44:17"
+    },
+    {
+        "sensor_1": 1603,
+        "sensor_2": 1657,
+        "sensor_3": 1650,
+        "timestamp": "2023-09-04 23:45:18"
+    },
+    {
+        "sensor_1": 1612,
+        "sensor_2": 1661,
+        "sensor_3": 1662,
+        "timestamp": "2023-09-04 23:46:19"
+    },
+    {
+        "sensor_1": 1592,
+        "sensor_2": 1803,
+        "sensor_3": 1701,
+        "timestamp": "2023-09-04 23:47:19"
+    },
+    {
+        "sensor_1": 1621,
+        "sensor_2": 1795,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-04 23:48:25"
+    },
+    {
+        "sensor_1": 1613,
+        "sensor_2": 1603,
+        "sensor_3": 1630,
+        "timestamp": "2023-09-04 23:48:29"
+    },
+    {
+        "sensor_1": 1608,
+        "sensor_2": 1803,
+        "sensor_3": 1707,
+        "timestamp": "2023-09-04 23:49:25"
+    },
+    {
+        "sensor_1": 1611,
+        "sensor_2": 1801,
+        "sensor_3": 1710,
+        "timestamp": "2023-09-04 23:50:29"
+    },
+    {
+        "sensor_1": 1600,
+        "sensor_2": 1806,
+        "sensor_3": 1711,
+        "timestamp": "2023-09-04 23:51:29"
+    },
+    {
+        "sensor_1": 1610,
+        "sensor_2": 1802,
+        "sensor_3": 1705,
+        "timestamp": "2023-09-04 23:52:29"
+    },
+    {
+        "sensor_1": 1613,
+        "sensor_2": 1608,
+        "sensor_3": 1626,
+        "timestamp": "2023-09-04 23:53:30"
+    },
+    {
+        "sensor_1": 1621,
+        "sensor_2": 1803,
+        "sensor_3": 1584,
+        "timestamp": "2023-09-04 23:54:30"
+    },
+    {
+        "sensor_1": 1608,
+        "sensor_2": 1598,
+        "sensor_3": 1612,
+        "timestamp": "2023-09-04 23:55:30"
+    },
+    {
+        "sensor_1": 1604,
+        "sensor_2": 1794,
+        "sensor_3": 1697,
+        "timestamp": "2023-09-04 23:56:30"
+    },
+    {
+        "sensor_1": 1604,
+        "sensor_2": 1659,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-04 23:57:31"
+    },
+    {
+        "sensor_1": 1617,
+        "sensor_2": 1655,
+        "sensor_3": 1652,
+        "timestamp": "2023-09-04 23:58:31"
+    },
+    {
+        "sensor_1": 1635,
+        "sensor_2": 1805,
+        "sensor_3": 1793,
+        "timestamp": "2023-09-04 23:59:35"
+    },
+    {
+        "sensor_1": 1722,
+        "sensor_2": 1822,
+        "sensor_3": 1552,
+        "timestamp": "2023-09-05 00:00:35"
+    },
+    {
+        "sensor_1": 1614,
+        "sensor_2": 1799,
+        "sensor_3": 1699,
+        "timestamp": "2023-09-05 00:01:37"
+    },
+    {
+        "sensor_1": 1617,
+        "sensor_2": 1612,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 00:02:37"
+    },
+    {
+        "sensor_1": 1573,
+        "sensor_2": 1753,
+        "sensor_3": 1650,
+        "timestamp": "2023-09-05 00:17:27"
+    },
+    {
+        "sensor_1": 2897,
+        "sensor_2": 1745,
+        "sensor_3": 1634,
+        "timestamp": "2023-09-05 00:18:12"
+    },
+    {
+        "sensor_1": 1703,
+        "sensor_2": 1728,
+        "sensor_3": 1617,
+        "timestamp": "2023-09-05 00:19:17"
+    },
+    {
+        "sensor_1": 1712,
+        "sensor_2": 1724,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 00:20:21"
+    },
+    {
+        "sensor_1": 1739,
+        "sensor_2": 1741,
+        "sensor_3": 1625,
+        "timestamp": "2023-09-05 00:21:29"
+    },
+    {
+        "sensor_1": 2858,
+        "sensor_2": 1735,
+        "sensor_3": 1622,
+        "timestamp": "2023-09-05 00:21:59"
+    },
+    {
+        "sensor_1": 2209,
+        "sensor_2": 1733,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 00:23:09"
+    },
+    {
+        "sensor_1": 2214,
+        "sensor_2": 1738,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 00:23:20"
+    },
+    {
+        "sensor_1": 2192,
+        "sensor_2": 1731,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 00:24:21"
+    },
+    {
+        "sensor_1": 2192,
+        "sensor_2": 1717,
+        "sensor_3": 1609,
+        "timestamp": "2023-09-05 00:25:24"
+    },
+    {
+        "sensor_1": 2245,
+        "sensor_2": 1742,
+        "sensor_3": 1635,
+        "timestamp": "2023-09-05 08:49:29"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1738,
+        "sensor_3": 1625,
+        "timestamp": "2023-09-05 08:50:33"
+    },
+    {
+        "sensor_1": 2231,
+        "sensor_2": 1697,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 08:51:33"
+    },
+    {
+        "sensor_1": 2232,
+        "sensor_2": 1740,
+        "sensor_3": 1637,
+        "timestamp": "2023-09-05 08:52:33"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1739,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 08:53:33"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1739,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 08:54:34"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1719,
+        "sensor_3": 1615,
+        "timestamp": "2023-09-05 08:55:34"
+    },
+    {
+        "sensor_1": 2234,
+        "sensor_2": 1720,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 08:56:34"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1737,
+        "sensor_3": 1628,
+        "timestamp": "2023-09-05 08:57:34"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1738,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 08:58:35"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1741,
+        "sensor_3": 1612,
+        "timestamp": "2023-09-05 08:59:35"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1733,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:00:35"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1744,
+        "sensor_3": 1626,
+        "timestamp": "2023-09-05 09:01:35"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1734,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:02:35"
+    },
+    {
+        "sensor_1": 2244,
+        "sensor_2": 1744,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:03:37"
+    },
+    {
+        "sensor_1": 2223,
+        "sensor_2": 1728,
+        "sensor_3": 1625,
+        "timestamp": "2023-09-05 09:04:37"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1726,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 09:05:38"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1712,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 09:06:38"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1728,
+        "sensor_3": 1622,
+        "timestamp": "2023-09-05 09:07:38"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1732,
+        "sensor_3": 1617,
+        "timestamp": "2023-09-05 09:08:39"
+    },
+    {
+        "sensor_1": 2234,
+        "sensor_2": 1736,
+        "sensor_3": 1614,
+        "timestamp": "2023-09-05 09:09:39"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1721,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:10:39"
+    },
+    {
+        "sensor_1": 2236,
+        "sensor_2": 1744,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:11:40"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1683,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 09:12:40"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1699,
+        "sensor_3": 1634,
+        "timestamp": "2023-09-05 09:13:43"
+    },
+    {
+        "sensor_1": 2234,
+        "sensor_2": 1743,
+        "sensor_3": 1617,
+        "timestamp": "2023-09-05 09:14:44"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1731,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:15:44"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1731,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 09:16:44"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1731,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 09:17:48"
+    },
+    {
+        "sensor_1": 2236,
+        "sensor_2": 1742,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 09:18:48"
+    },
+    {
+        "sensor_1": 2227,
+        "sensor_2": 1727,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 09:19:48"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1714,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 09:20:49"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1744,
+        "sensor_3": 1621,
+        "timestamp": "2023-09-05 09:21:49"
+    },
+    {
+        "sensor_1": 2243,
+        "sensor_2": 1743,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 09:22:50"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1744,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 09:23:50"
+    },
+    {
+        "sensor_1": 2241,
+        "sensor_2": 1744,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 09:29:18"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1733,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 09:30:20"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1744,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 09:31:20"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1732,
+        "sensor_3": 1628,
+        "timestamp": "2023-09-05 09:32:23"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1715,
+        "sensor_3": 1625,
+        "timestamp": "2023-09-05 09:33:23"
+    },
+    {
+        "sensor_1": 2224,
+        "sensor_2": 1735,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 09:34:23"
+    },
+    {
+        "sensor_1": 2231,
+        "sensor_2": 1730,
+        "sensor_3": 1613,
+        "timestamp": "2023-09-05 09:35:26"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1728,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 09:36:26"
+    },
+    {
+        "sensor_1": 2223,
+        "sensor_2": 1738,
+        "sensor_3": 1622,
+        "timestamp": "2023-09-05 09:37:26"
+    },
+    {
+        "sensor_1": 2228,
+        "sensor_2": 1739,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:38:27"
+    },
+    {
+        "sensor_1": 2236,
+        "sensor_2": 1755,
+        "sensor_3": 1629,
+        "timestamp": "2023-09-05 09:39:27"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1741,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 09:40:27"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1727,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 09:41:27"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1731,
+        "sensor_3": 1615,
+        "timestamp": "2023-09-05 09:42:28"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1728,
+        "sensor_3": 1626,
+        "timestamp": "2023-09-05 09:43:28"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1744,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 09:44:29"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1715,
+        "sensor_3": 1617,
+        "timestamp": "2023-09-05 09:45:30"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1742,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 09:46:30"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1735,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 09:47:32"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1738,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 09:48:32"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1736,
+        "sensor_3": 1618,
+        "timestamp": "2023-09-05 09:49:32"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1745,
+        "sensor_3": 1630,
+        "timestamp": "2023-09-05 09:50:32"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1744,
+        "sensor_3": 1618,
+        "timestamp": "2023-09-05 09:51:33"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1744,
+        "sensor_3": 1632,
+        "timestamp": "2023-09-05 09:52:33"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1763,
+        "sensor_3": 1617,
+        "timestamp": "2023-09-05 09:53:33"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1715,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 09:54:33"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1736,
+        "sensor_3": 1628,
+        "timestamp": "2023-09-05 09:55:33"
+    },
+    {
+        "sensor_1": 2224,
+        "sensor_2": 1744,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 09:56:33"
+    },
+    {
+        "sensor_1": 2248,
+        "sensor_2": 1752,
+        "sensor_3": 1617,
+        "timestamp": "2023-09-05 09:57:33"
+    },
+    {
+        "sensor_1": 2241,
+        "sensor_2": 1727,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 09:58:33"
+    },
+    {
+        "sensor_1": 2228,
+        "sensor_2": 1731,
+        "sensor_3": 1625,
+        "timestamp": "2023-09-05 09:59:34"
+    },
+    {
+        "sensor_1": 2218,
+        "sensor_2": 1739,
+        "sensor_3": 1626,
+        "timestamp": "2023-09-05 10:00:34"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1747,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 10:01:34"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1736,
+        "sensor_3": 1632,
+        "timestamp": "2023-09-05 10:02:34"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1742,
+        "sensor_3": 1626,
+        "timestamp": "2023-09-05 10:03:34"
+    },
+    {
+        "sensor_1": 2231,
+        "sensor_2": 1739,
+        "sensor_3": 1635,
+        "timestamp": "2023-09-05 10:04:34"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1744,
+        "sensor_3": 1622,
+        "timestamp": "2023-09-05 10:05:34"
+    },
+    {
+        "sensor_1": 2236,
+        "sensor_2": 1739,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 10:06:34"
+    },
+    {
+        "sensor_1": 2255,
+        "sensor_2": 1713,
+        "sensor_3": 1608,
+        "timestamp": "2023-09-05 10:07:34"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1745,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 10:08:34"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1737,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 10:09:35"
+    },
+    {
+        "sensor_1": 2265,
+        "sensor_2": 1725,
+        "sensor_3": 1629,
+        "timestamp": "2023-09-05 10:10:35"
+    },
+    {
+        "sensor_1": 2236,
+        "sensor_2": 1738,
+        "sensor_3": 1628,
+        "timestamp": "2023-09-05 10:11:35"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1744,
+        "sensor_3": 1630,
+        "timestamp": "2023-09-05 10:12:35"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1750,
+        "sensor_3": 1628,
+        "timestamp": "2023-09-05 10:13:35"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1744,
+        "sensor_3": 1630,
+        "timestamp": "2023-09-05 10:14:36"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1744,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 10:15:36"
+    },
+    {
+        "sensor_1": 2241,
+        "sensor_2": 1744,
+        "sensor_3": 1629,
+        "timestamp": "2023-09-05 10:16:36"
+    },
+    {
+        "sensor_1": 2230,
+        "sensor_2": 1744,
+        "sensor_3": 1618,
+        "timestamp": "2023-09-05 10:17:36"
+    },
+    {
+        "sensor_1": 2236,
+        "sensor_2": 1735,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 10:18:37"
+    },
+    {
+        "sensor_1": 2241,
+        "sensor_2": 1739,
+        "sensor_3": 1612,
+        "timestamp": "2023-09-05 10:19:37"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1724,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 10:20:37"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1745,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 10:21:37"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1733,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 10:22:37"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1733,
+        "sensor_3": 1625,
+        "timestamp": "2023-09-05 10:23:37"
+    },
+    {
+        "sensor_1": 2244,
+        "sensor_2": 1747,
+        "sensor_3": 1635,
+        "timestamp": "2023-09-05 10:24:39"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1750,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 10:25:39"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1775,
+        "sensor_3": 1622,
+        "timestamp": "2023-09-05 10:26:39"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1776,
+        "sensor_3": 1628,
+        "timestamp": "2023-09-05 10:27:39"
+    },
+    {
+        "sensor_1": 2246,
+        "sensor_2": 1773,
+        "sensor_3": 1637,
+        "timestamp": "2023-09-05 10:28:39"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1770,
+        "sensor_3": 1638,
+        "timestamp": "2023-09-05 10:29:40"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1765,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 10:30:40"
+    },
+    {
+        "sensor_1": 2243,
+        "sensor_2": 1769,
+        "sensor_3": 1635,
+        "timestamp": "2023-09-05 10:31:40"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1774,
+        "sensor_3": 1617,
+        "timestamp": "2023-09-05 10:32:40"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1769,
+        "sensor_3": 1613,
+        "timestamp": "2023-09-05 10:33:40"
+    },
+    {
+        "sensor_1": 2241,
+        "sensor_2": 1767,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 10:34:41"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1749,
+        "sensor_3": 1637,
+        "timestamp": "2023-09-05 10:35:41"
+    },
+    {
+        "sensor_1": 2243,
+        "sensor_2": 1776,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 10:36:42"
+    },
+    {
+        "sensor_1": 2242,
+        "sensor_2": 1774,
+        "sensor_3": 1632,
+        "timestamp": "2023-09-05 10:37:42"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1770,
+        "sensor_3": 1634,
+        "timestamp": "2023-09-05 10:38:43"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1763,
+        "sensor_3": 1625,
+        "timestamp": "2023-09-05 10:39:47"
+    },
+    {
+        "sensor_1": 2243,
+        "sensor_2": 1744,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 10:40:47"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1758,
+        "sensor_3": 1624,
+        "timestamp": "2023-09-05 10:41:47"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1755,
+        "sensor_3": 1626,
+        "timestamp": "2023-09-05 10:42:47"
+    },
+    {
+        "sensor_1": 2251,
+        "sensor_2": 1766,
+        "sensor_3": 1630,
+        "timestamp": "2023-09-05 10:43:47"
+    },
+    {
+        "sensor_1": 2241,
+        "sensor_2": 1776,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 10:44:47"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1775,
+        "sensor_3": 1619,
+        "timestamp": "2023-09-05 10:45:47"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1775,
+        "sensor_3": 1634,
+        "timestamp": "2023-09-05 10:46:47"
+    },
+    {
+        "sensor_1": 2242,
+        "sensor_2": 1747,
+        "sensor_3": 1640,
+        "timestamp": "2023-09-05 10:47:53"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1773,
+        "sensor_3": 1630,
+        "timestamp": "2023-09-05 10:47:53"
+    },
+    {
+        "sensor_1": 2230,
+        "sensor_2": 1763,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 10:48:53"
+    },
+    {
+        "sensor_1": 2243,
+        "sensor_2": 1744,
+        "sensor_3": 1629,
+        "timestamp": "2023-09-05 10:49:54"
+    },
+    {
+        "sensor_1": 2244,
+        "sensor_2": 1764,
+        "sensor_3": 1623,
+        "timestamp": "2023-09-05 10:50:54"
+    },
+    {
+        "sensor_1": 2247,
+        "sensor_2": 1778,
+        "sensor_3": 1639,
+        "timestamp": "2023-09-05 10:51:54"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1753,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 10:52:54"
+    },
+    {
+        "sensor_1": 2238,
+        "sensor_2": 1770,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 10:53:56"
+    },
+    {
+        "sensor_1": 2242,
+        "sensor_2": 1776,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 10:54:56"
+    },
+    {
+        "sensor_1": 2239,
+        "sensor_2": 1762,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 10:55:56"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 1770,
+        "sensor_3": 1621,
+        "timestamp": "2023-09-05 10:56:56"
+    },
+    {
+        "sensor_1": 2242,
+        "sensor_2": 1772,
+        "sensor_3": 1616,
+        "timestamp": "2023-09-05 10:57:56"
+    },
+    {
+        "sensor_1": 2243,
+        "sensor_2": 1772,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 10:59:02"
+    },
+    {
+        "sensor_1": 2241,
+        "sensor_2": 1772,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 10:59:02"
+    },
+    {
+        "sensor_1": 2252,
+        "sensor_2": 1790,
+        "sensor_3": 1642,
+        "timestamp": "2023-09-05 12:07:08"
+    },
+    {
+        "sensor_1": 2247,
+        "sensor_2": 1787,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 12:08:08"
+    },
+    {
+        "sensor_1": 2245,
+        "sensor_2": 1786,
+        "sensor_3": 1629,
+        "timestamp": "2023-09-05 12:09:08"
+    },
+    {
+        "sensor_1": 2209,
+        "sensor_2": 1794,
+        "sensor_3": 1632,
+        "timestamp": "2023-09-05 12:10:08"
+    },
+    {
+        "sensor_1": 2205,
+        "sensor_2": 1771,
+        "sensor_3": 1620,
+        "timestamp": "2023-09-05 12:11:09"
+    },
+    {
+        "sensor_1": 2208,
+        "sensor_2": 1781,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 12:12:09"
+    },
+    {
+        "sensor_1": 2218,
+        "sensor_2": 1792,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 12:13:12"
+    },
+    {
+        "sensor_1": 2201,
+        "sensor_2": 1793,
+        "sensor_3": 1639,
+        "timestamp": "2023-09-05 12:14:12"
+    },
+    {
+        "sensor_1": 2224,
+        "sensor_2": 1791,
+        "sensor_3": 1624,
+        "timestamp": "2023-09-05 12:15:12"
+    },
+    {
+        "sensor_1": 2205,
+        "sensor_2": 1793,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 12:16:13"
+    },
+    {
+        "sensor_1": 2210,
+        "sensor_2": 1763,
+        "sensor_3": 1634,
+        "timestamp": "2023-09-05 12:17:13"
+    },
+    {
+        "sensor_1": 2202,
+        "sensor_2": 1779,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 12:18:14"
+    },
+    {
+        "sensor_1": 2209,
+        "sensor_2": 1784,
+        "sensor_3": 1618,
+        "timestamp": "2023-09-05 12:19:14"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1808,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 12:51:35"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1808,
+        "sensor_3": 1627,
+        "timestamp": "2023-09-05 12:52:36"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1779,
+        "sensor_3": 1635,
+        "timestamp": "2023-09-05 12:53:36"
+    },
+    {
+        "sensor_1": 2227,
+        "sensor_2": 1795,
+        "sensor_3": 1640,
+        "timestamp": "2023-09-05 12:54:36"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1807,
+        "sensor_3": 1634,
+        "timestamp": "2023-09-05 12:55:40"
+    },
+    {
+        "sensor_1": 2230,
+        "sensor_2": 1795,
+        "sensor_3": 1636,
+        "timestamp": "2023-09-05 12:56:40"
+    },
+    {
+        "sensor_1": 2229,
+        "sensor_2": 1792,
+        "sensor_3": 1635,
+        "timestamp": "2023-09-05 12:57:41"
+    },
+    {
+        "sensor_1": 2232,
+        "sensor_2": 1794,
+        "sensor_3": 1633,
+        "timestamp": "2023-09-05 12:58:41"
+    },
+    {
+        "sensor_1": 2222,
+        "sensor_2": 1783,
+        "sensor_3": 1635,
+        "timestamp": "2023-09-05 12:59:41"
+    },
+    {
+        "sensor_1": 2224,
+        "sensor_2": 1799,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 13:00:44"
+    },
+    {
+        "sensor_1": 2230,
+        "sensor_2": 1795,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 13:01:45"
+    },
+    {
+        "sensor_1": 2243,
+        "sensor_2": 1815,
+        "sensor_3": 1649,
+        "timestamp": "2023-09-05 13:15:03"
+    },
+    {
+        "sensor_1": 2233,
+        "sensor_2": 1797,
+        "sensor_3": 1631,
+        "timestamp": "2023-09-05 13:16:03"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1809,
+        "sensor_3": 1641,
+        "timestamp": "2023-09-05 13:17:04"
+    },
+    {
+        "sensor_1": 2236,
+        "sensor_2": 1791,
+        "sensor_3": 1643,
+        "timestamp": "2023-09-05 13:18:04"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1806,
+        "sensor_3": 1647,
+        "timestamp": "2023-09-05 13:19:05"
+    },
+    {
+        "sensor_1": 2237,
+        "sensor_2": 1808,
+        "sensor_3": 1632,
+        "timestamp": "2023-09-05 13:20:05"
+    },
+    {
+        "sensor_1": 2234,
+        "sensor_2": 1813,
+        "sensor_3": 1639,
+        "timestamp": "2023-09-05 13:21:06"
+    },
+    {
+        "sensor_1": 2224,
+        "sensor_2": 1808,
+        "sensor_3": 1642,
+        "timestamp": "2023-09-05 13:22:06"
+    },
+    {
+        "sensor_1": 2223,
+        "sensor_2": 1814,
+        "sensor_3": 1647,
+        "timestamp": "2023-09-05 13:23:06"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 1816,
+        "sensor_3": 1639,
+        "timestamp": "2023-09-05 13:24:06"
+    },
+    {
+        "sensor_1": 2229,
+        "sensor_2": 1810,
+        "sensor_3": 1630,
+        "timestamp": "2023-09-05 13:25:06"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1823,
+        "sensor_3": 1653,
+        "timestamp": "2023-09-05 13:26:07"
+    },
+    {
+        "sensor_1": 2240,
+        "sensor_2": 3243,
+        "sensor_3": 1653,
+        "timestamp": "2023-09-05 13:29:48"
+    },
+    {
+        "sensor_1": 2230,
+        "sensor_2": 3246,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 13:30:53"
+    },
+    {
+        "sensor_1": 2224,
+        "sensor_2": 1967,
+        "sensor_3": 1638,
+        "timestamp": "2023-09-05 13:31:59"
+    },
+    {
+        "sensor_1": 2223,
+        "sensor_2": 1965,
+        "sensor_3": 1639,
+        "timestamp": "2023-09-05 13:32:59"
+    },
+    {
+        "sensor_1": 2219,
+        "sensor_2": 1946,
+        "sensor_3": 1643,
+        "timestamp": "2023-09-05 13:33:59"
+    },
+    {
+        "sensor_1": 2212,
+        "sensor_2": 1947,
+        "sensor_3": 1647,
+        "timestamp": "2023-09-05 13:35:02"
+    },
+    {
+        "sensor_1": 2213,
+        "sensor_2": 1971,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 13:36:03"
+    },
+    {
+        "sensor_1": 2213,
+        "sensor_2": 1972,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 13:37:03"
+    },
+    {
+        "sensor_1": 2215,
+        "sensor_2": 1950,
+        "sensor_3": 1650,
+        "timestamp": "2023-09-05 13:38:04"
+    },
+    {
+        "sensor_1": 2223,
+        "sensor_2": 1947,
+        "sensor_3": 1652,
+        "timestamp": "2023-09-05 13:39:04"
+    },
+    {
+        "sensor_1": 2203,
+        "sensor_2": 1959,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 13:40:05"
+    },
+    {
+        "sensor_1": 2215,
+        "sensor_2": 1949,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 13:41:06"
+    },
+    {
+        "sensor_1": 2221,
+        "sensor_2": 1954,
+        "sensor_3": 1632,
+        "timestamp": "2023-09-05 13:42:06"
+    },
+    {
+        "sensor_1": 2227,
+        "sensor_2": 1999,
+        "sensor_3": 1662,
+        "timestamp": "2023-09-05 14:50:39"
+    },
+    {
+        "sensor_1": 2224,
+        "sensor_2": 1989,
+        "sensor_3": 1654,
+        "timestamp": "2023-09-05 14:51:39"
+    },
+    {
+        "sensor_1": 2225,
+        "sensor_2": 1991,
+        "sensor_3": 1657,
+        "timestamp": "2023-09-05 14:52:39"
+    },
+    {
+        "sensor_1": 2235,
+        "sensor_2": 2005,
+        "sensor_3": 1661,
+        "timestamp": "2023-09-05 15:14:52"
+    },
+    {
+        "sensor_1": 2229,
+        "sensor_2": 2006,
+        "sensor_3": 1658,
+        "timestamp": "2023-09-05 15:15:09"
+    },
+    {
+        "sensor_1": 2229,
+        "sensor_2": 2000,
+        "sensor_3": 1648,
+        "timestamp": "2023-09-05 15:16:09"
+    },
+    {
+        "sensor_1": 2229,
+        "sensor_2": 2006,
+        "sensor_3": 1649,
+        "timestamp": "2023-09-05 15:17:09"
+    },
+    {
+        "sensor_1": 2227,
+        "sensor_2": 1983,
+        "sensor_3": 1641,
+        "timestamp": "2023-09-05 15:18:09"
+    },
+    {
+        "sensor_1": 2228,
+        "sensor_2": 1968,
+        "sensor_3": 1650,
+        "timestamp": "2023-09-05 15:19:09"
+    },
+    {
+        "sensor_1": 2227,
+        "sensor_2": 2002,
+        "sensor_3": 1653,
+        "timestamp": "2023-09-05 15:20:09"
+    }
+]
