@@ -79,4 +79,3 @@ def update_garden_area(garden_area_id):
         garden.save()
         return jsonify(garden.to_dict())
     abort(404)
-    abort(404)
