@@ -1,7 +1,7 @@
 """This script defines Flask view functions for handling
 CRUD operations on the "sensors" resource."""
 
-from api.v1.views import app_views
+from api.views import app_views
 from flask import jsonify, request, abort, render_template
 from models import storage
 from models.sensors import Sensors
@@ -50,7 +50,7 @@ def create_sensors():
     new_sensor = Sensors(**data)
     new_sensor.save()
     for key, value in data.items():
-        if key in sensors_list and int(value) > 2500:
+        if key in sensors_list and int(value) > 2300:
             response['relay'] = True
             print(response)
             return jsonify(response) , 201

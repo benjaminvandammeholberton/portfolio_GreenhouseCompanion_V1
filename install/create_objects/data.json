@@ -1,7 +1,7 @@
 [
     {
         "name": "Carrot",
-        "garden_area_id": "2d4bae98-515e-41eb-bd60-870d8c0202c5",
+        "garden_area_id": "",
         "quantity": 8,
         "sowed": false,
         "planted": true,
@@ -14,7 +14,7 @@
     },
     {
         "name": "Broccoli",
-        "garden_area_id": "2ecf296d-b9fd-46d8-9fa6-ea582c474bc1",
+        "garden_area_id": "",
         "quantity": 5,
         "sowed": true,
         "planted": false,
@@ -27,7 +27,7 @@
     },
     {
         "name": "Tomato",
-        "garden_area_id": "c91a841f-7af6-4abb-8079-4e5abdc0832d",
+        "garden_area_id": "",
         "quantity": 10,
         "sowed": true,
         "planted": true,
@@ -40,7 +40,7 @@
     },
     {
         "name": "Cucumber",
-        "garden_area_id": "e079c566-cdb5-4a9d-b584-ea04a084d08a",
+        "garden_area_id": "",
         "quantity": 7,
         "sowed": false,
         "planted": true,
@@ -53,7 +53,7 @@
     },
     {
         "name": "Bell Pepper",
-        "garden_area_id": "2d4bae98-515e-41eb-bd60-870d8c0202c5",
+        "garden_area_id": "",
         "quantity": 4,
         "sowed": true,
         "planted": true,
@@ -66,7 +66,7 @@
     },
     {
         "name": "Spinach",
-        "garden_area_id": "2ecf296d-b9fd-46d8-9fa6-ea582c474bc1",
+        "garden_area_id": "",
         "quantity": 3,
         "sowed": true,
         "planted": true,
@@ -79,7 +79,7 @@
     },
     {
         "name": "Potato",
-        "garden_area_id": "c91a841f-7af6-4abb-8079-4e5abdc0832d",
+        "garden_area_id": "",
         "quantity": 12,
         "sowed": true,
         "planted": true,
@@ -92,7 +92,7 @@
     },
     {
         "name": "Zucchini",
-        "garden_area_id": "e079c566-cdb5-4a9d-b584-ea04a084d08a",
+        "garden_area_id": "",
         "quantity": 6,
         "sowed": true,
         "planted": true,
@@ -105,7 +105,7 @@
     },
     {
         "name": "Eggplant",
-        "garden_area_id": "2d4bae98-515e-41eb-bd60-870d8c0202c5",
+        "garden_area_id": "",
         "quantity": 4,
         "sowed": true,
         "planted": true,
@@ -118,7 +118,7 @@
     },
     {
         "name": "Cauliflower",
-        "garden_area_id": "2ecf296d-b9fd-46d8-9fa6-ea582c474bc1",
+        "garden_area_id": "",
         "quantity": 5,
         "sowed": true,
         "planted": true,
@@ -131,7 +131,7 @@
     },
     {
         "name": "Lettuce",
-        "garden_area_id": "c91a841f-7af6-4abb-8079-4e5abdc0832d",
+        "garden_area_id": "",
         "quantity": 8,
         "sowed": true,
         "planted": true,
@@ -144,7 +144,7 @@
     },
     {
         "name": "Onion",
-        "garden_area_id": "e079c566-cdb5-4a9d-b584-ea04a084d08a",
+        "garden_area_id": "",
         "quantity": 10,
         "sowed": true,
         "planted": true,
@@ -157,7 +157,7 @@
     },
     {
         "name": "Peas",
-        "garden_area_id": "2d4bae98-515e-41eb-bd60-870d8c0202c5",
+        "garden_area_id": "",
         "quantity": 5,
         "sowed": true,
         "planted": true,
@@ -170,7 +170,7 @@
     },
     {
         "name": "Radish",
-        "garden_area_id": "2ecf296d-b9fd-46d8-9fa6-ea582c474bc1",
+        "garden_area_id": "",
         "quantity": 3,
         "sowed": true,
         "planted": true,
@@ -183,7 +183,7 @@
     },
     {
         "name": "Brussels Sprouts",
-        "garden_area_id": "c91a841f-7af6-4abb-8079-4e5abdc0832d",
+        "garden_area_id": "",
         "quantity": 4,
         "sowed": true,
         "planted": true,
@@ -196,7 +196,7 @@
     },
     {
         "name": "Sweet Potato",
-        "garden_area_id": "e079c566-cdb5-4a9d-b584-ea04a084d08a",
+        "garden_area_id": "",
         "quantity": 6,
         "sowed": true,
         "planted": true,
@@ -209,7 +209,7 @@
     },
     {
         "name": "Asparagus",
-        "garden_area_id": "2d4bae98-515e-41eb-bd60-870d8c0202c5",
+        "garden_area_id": "",
         "quantity": 2,
         "sowed": false,
         "planted": true,
@@ -222,7 +222,7 @@
     },
     {
         "name": "Kale",
-        "garden_area_id": "2ecf296d-b9fd-46d8-9fa6-ea582c474bc1",
+        "garden_area_id": "",
         "quantity": 4,
         "sowed": true,
         "planted": true,
