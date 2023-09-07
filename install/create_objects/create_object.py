@@ -3,7 +3,7 @@ import json
 
 
 def create_garden_area(data):
-    url = "http://127.0.0.1:5001/api/v1/garden_area"
+    url = "http://127.0.0.1:5001/api/garden_area"
     headers = {"Content-Type": "application/json"}
 
     response = requests.post(url, json=data, headers=headers)
@@ -20,7 +20,7 @@ def create_garden_area(data):
 
 
 def create_vegetable(data):
-    url = "http://127.0.0.1:5000/api/v1/vegetable_manager"
+    url = "http://127.0.0.1:5000/api/vegetable_manager"
     headers = {"Content-Type": "application/json"}
 
     response = requests.post(url, json=data, headers=headers)
@@ -37,7 +37,7 @@ def create_vegetable(data):
 
 
 def create_vegetables_from_file(file_path):
-    url = "http://127.0.0.1:5000/api/v1/vegetable_manager"
+    url = "http://127.0.0.1:5000/api/vegetable_manager"
     headers = {"Content-Type": "application/json"}
 
     with open(file_path, "r") as file:

@@ -1,4 +1,4 @@
-curl -X POST -H "Content-Type: application/json" -d '{"name": "right"}' http://127.0.0.1:5000/api/v1/garden_area
+curl -X POST -H "Content-Type: application/json" -d '{"name": "right"}' http://127.0.0.1:5000/api/garden_area
 
 curl -X POST -H "Content-Type: application/json" -d '{
     "name": "Carrot",
@@ -11,4 +11,4 @@ curl -X POST -H "Content-Type: application/json" -d '{
     "harvest_quantity": null,
     "notes": "This is a carrot plant.",
     "garden_area_id": "d9398903-4107-469f-a068-a737d6263753"
-}' http://127.0.0.1:5000/api/v1/vegetable_manager
+}' http://127.0.0.1:5000/api/vegetable_manager

@@ -1,7 +1,7 @@
 """This script defines Flask view functions for handling
 CRUD operations on the "garden_area" resource."""
 
-from api.v1.views import app_views
+from api.views import app_views
 from flask import jsonify, request, abort
 from models import storage
 from models.garden_area import GardenArea
