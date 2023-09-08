@@ -51,8 +51,14 @@ def create_sensors():
     new_sensor.save()
     for key, value in data.items():
         if key in sensors_list and int(value) > 2300:
-            response['relay'] = True
+            # response['relay'] = True
+            response['middle'] = response['soil_humidity_3']
+            response['left'] = response['soil_humidity_1']
+            response['right'] = response['soil_humidity_2']
             print(response)
             return jsonify(response) , 201
+    response['middle'] = response['soil_humidity_3']
+    response['left'] = response['soil_humidity_1']
+    response['right'] = response['soil_humidity_2']
     print(response)
     return jsonify(new_sensor.to_dict()) , 201

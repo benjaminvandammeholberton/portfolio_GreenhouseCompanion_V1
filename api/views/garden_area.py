@@ -17,6 +17,7 @@ def get_all_garden_area():
     return jsonify([garden.to_dict() for garden in garden_area])
 
 
+
 @app_views.route('/garden_area/<garden_area_id>', methods=['GET'],
                  strict_slashes=False)
 def get_garden_area(garden_area_id):
