@@ -1,7 +1,7 @@
 import requests
 import json
 
-url = "http://127.0.0.1:5000/api/v1/vegetable_manager"
+url = "http://127.0.0.1:5001/api/vegetable_manager"
 headers = {"Content-Type": "application/json"}
 
 # name, sowed, planted, sowing_date, planting_date,

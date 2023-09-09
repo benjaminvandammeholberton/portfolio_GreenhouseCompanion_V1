@@ -1,7 +1,7 @@
 """This script defines Flask view functions for handling
 CRUD operations on the "vegetable_manager" resource."""
 
-from api.v1.views import app_views
+from api.views import app_views
 from flask import jsonify, request, abort, render_template
 from models import storage
 from models.vegetable_manager import VegetableManager
@@ -23,7 +23,7 @@ def get_all_vegetable_manager():
     return jsonify([data.to_dict() for data in combined_data])
 
 
-@app_views.route('/vegetable_manager/<vegetable_manager>', methods=['GET'],
+@app_views.route('/vegetable_manager/<vegetable_manager_id>', methods=['GET'],
                  strict_slashes=False)
 def get_vegetable_manager(vegetable_manager_id):
     """
