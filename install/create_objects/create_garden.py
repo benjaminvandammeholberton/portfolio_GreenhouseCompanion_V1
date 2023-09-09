@@ -11,7 +11,7 @@ Usage:
     If the name or surface is not provided, the script exits with an error code.
 
 Note:
-    This script is intended to work with a specific API endpoint, and the URL is set to "http://127.0.0.1:5000/api/v1/garden_area".
+    This script is intended to work with a specific API endpoint, and the URL is set to "http://127.0.0.1:5000/api/garden_area".
     Please adjust the URL as needed for your specific API setup.
 """
 import requests
@@ -19,7 +19,7 @@ import sys
 
 
 def create_garden_area(name, surface, notes):
-    url = "http://127.0.0.1:5000/api/v1/garden_area"
+    url = "http://127.0.0.1:5001/api/garden_area"
     headers = {"Content-Type": "application/json"}
 
     data = {

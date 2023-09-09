@@ -2,7 +2,7 @@ import requests
 import json
 
 # Update with your actual server URL
-base_url = "http://127.0.0.1:5000/api/v1/"
+base_url = "http://127.0.0.1:5000/api/"
 
 # GET all garden areas
 response = requests.get(f"{base_url}/garden_area")
