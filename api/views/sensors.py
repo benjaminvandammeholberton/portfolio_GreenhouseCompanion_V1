@@ -38,7 +38,7 @@ def get_last_sensor():
         # Handle the case where there are no sensors
         return jsonify({"message": "No sensor data available"}), 404
 
-@app_views.route('/sensors/<sensors>', methods=['GET'],
+@app_views.route('/sensors/<sensors_id>', methods=['GET'],
                  strict_slashes=False)
 def get_sensors(sensors_id):
     """
