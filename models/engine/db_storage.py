@@ -31,7 +31,7 @@ import json
 classes = {
     "GardenArea": GardenArea,
     "VegetableManager": VegetableManager,
-    "Sensor": Sensors
+    "Sensors": Sensors
 }
 
 
