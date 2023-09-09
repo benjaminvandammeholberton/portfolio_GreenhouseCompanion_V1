@@ -45,7 +45,7 @@ python install/db_set/setup_mysql_dev.py
 To run the Greenhouse Companion API, follow these steps:
 
 **1. Start the Flask API Server**
-From the `api/v1` directory, run the following command to start the Flask API server: `flask run`
+From the `api` directory, run the following command to start the Flask API server: `flask run`
 The API will be accessible at http://127.0.0.1:5000 by default.
 
 **2. Verify API Status**

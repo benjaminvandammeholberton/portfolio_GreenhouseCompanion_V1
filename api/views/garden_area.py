@@ -1,7 +1,7 @@
 """This script defines Flask view functions for handling
 CRUD operations on the "garden_area" resource."""
 
-from api.v1.views import app_views
+from api.views import app_views
 from flask import jsonify, request, abort
 from models import storage
 from models.garden_area import GardenArea
@@ -15,6 +15,7 @@ def get_all_garden_area():
     """
     garden_area = storage.all(GardenArea).values()
     return jsonify([garden.to_dict() for garden in garden_area])
+
 
 
 @app_views.route('/garden_area/<garden_area_id>', methods=['GET'],
