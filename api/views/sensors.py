@@ -21,6 +21,22 @@ def get_all_sensors():
     # combined_data = list(sensors) + list(garden_area)
     return jsonify([data.to_dict() for data in sensors])
 
+@app_views.route('/sensors/last', methods=['GET'], strict_slashes=False)
+def get_last_sensor():
+    """
+    Retrieves the last added sensor data and returns it as a JSON object.
+    """
+    sensors = storage.all(Sensors).values()
+
+    # Sort the sensors by timestamp in descending order
+    sorted_sensors = sorted(sensors, key=lambda sensor: sensor.created_at, reverse=True)
+
+    if sorted_sensors:
+        last_sensor = sorted_sensors[0]
+        return jsonify(last_sensor.to_dict())
+    else:
+        # Handle the case where there are no sensors
+        return jsonify({"message": "No sensor data available"}), 404
 
 @app_views.route('/sensors/<sensors>', methods=['GET'],
                  strict_slashes=False)
@@ -52,13 +68,13 @@ def create_sensors():
     for key, value in data.items():
         if key in sensors_list and int(value) > 2300:
             # response['relay'] = True
-            response['middle'] = response['soil_humidity_3']
+            response['right'] = response['soil_humidity_3']
             response['left'] = response['soil_humidity_1']
-            response['right'] = response['soil_humidity_2']
+            response['middle'] = response['soil_humidity_2']
             print(response)
             return jsonify(response) , 201
-    response['middle'] = response['soil_humidity_3']
+    response['right'] = response['soil_humidity_3']
     response['left'] = response['soil_humidity_1']
-    response['right'] = response['soil_humidity_2']
+    response['middle'] = response['soil_humidity_2']
     print(response)
     return jsonify(new_sensor.to_dict()) , 201
