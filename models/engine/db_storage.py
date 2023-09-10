@@ -56,15 +56,17 @@ class DBStorage:
         # GREENHOUSE_ENV = getenv('HBNB_ENV')
 
         GREENHOUSE_MYSQL_USER = "greenhouse_dev"
-        GREENHOUSE_MYSQL_PWD = "greenhouse_dev_pwd"
-        GREENHOUSE_MYSQL_HOST = "localhost"
-        GREENHOUSE_MYSQL_DB = "greenhouse_dev_db"
+        GREENHOUSE_MYSQL_PWD = "AVNS_I6mOdk372jRm8stpS0d"
+        GREENHOUSE_MYSQL_HOST = "db-mysql-ams3-26566-do-user-14634177-0.b.db.ondigitalocean.com"
+        GREENHOUSE_MYSQL_DB = "greenhouse_db"
+        GREENHOUSE_MYSQL_PORT = 25060
         GREENHOUSE_ENV = getenv('HBNB_ENV')
 
-        self.__engine = create_engine('mysql+mysqldb://{}:{}@{}/{}'.
+        self.__engine = create_engine('mysql+mysqldb://{}:{}@{}:{}/{}'.
                                       format(GREENHOUSE_MYSQL_USER,
                                              GREENHOUSE_MYSQL_PWD,
                                              GREENHOUSE_MYSQL_HOST,
+                                             GREENHOUSE_MYSQL_PORT,
                                              GREENHOUSE_MYSQL_DB))
         if GREENHOUSE_ENV == "test":
             Base.metadata.drop_all(self.__engine)
