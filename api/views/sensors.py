@@ -65,14 +65,18 @@ def create_sensors():
         return jsonify({"error": "Not a JSON"}), 400
     new_sensor = Sensors(**data)
     new_sensor.save()
-    for key, value in data.items():
-        if key in sensors_list and int(value) > 2300:
+    # for key, value in data.items():
+    if data["soil_humidity_1"] > 2300:
+        response['relay'] = True
+        print(response)
+        return jsonify(response) , 201
+        # if key in sensors_list and int(value) > 2300:
             # response['relay'] = True
-            response['right'] = response['soil_humidity_3']
-            response['left'] = response['soil_humidity_1']
-            response['middle'] = response['soil_humidity_2']
-            print(response)
-            return jsonify(response) , 201
+        #     response['right'] = response['soil_humidity_3']
+        #     response['left'] = response['soil_humidity_1']
+        #     response['middle'] = response['soil_humidity_2']
+    #         print(response)
+    #         return jsonify(response) , 201
     response['right'] = response['soil_humidity_3']
     response['left'] = response['soil_humidity_1']
     response['middle'] = response['soil_humidity_2']
