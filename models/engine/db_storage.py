@@ -22,6 +22,7 @@ from models.base_model import BaseModel, Base
 from models.vegetable_manager import VegetableManager
 from models.garden_area import GardenArea
 from models.sensors import Sensors
+from models.soil_moisture_set import SoilMoistureSet
 from os import getenv
 import sqlalchemy
 from sqlalchemy import create_engine
@@ -31,7 +32,8 @@ import json
 classes = {
     "GardenArea": GardenArea,
     "VegetableManager": VegetableManager,
-    "Sensors": Sensors
+    "Sensors": Sensors,
+    "SoilMoistureSet": SoilMoistureSet
 }
 
 
