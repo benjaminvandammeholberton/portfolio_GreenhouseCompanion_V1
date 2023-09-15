@@ -5,7 +5,7 @@ from models.engine.db_storage import DBStorage
 from os import getenv
 
 
-storage_t = "db"
+# storage_t = "db"
 storage = DBStorage()
 
 # if storage_t == "db":

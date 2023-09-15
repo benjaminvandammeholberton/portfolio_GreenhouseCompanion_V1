@@ -21,12 +21,3 @@ class Sensors(BaseModel, Base):
     def __init__(self, *args, **kwargs):
         """initializes Sensors"""
         super().__init__(*args, **kwargs)
-
-    # try change to _dict
-    # def to_dict(self):
-    #     new_dict = super().to_dict()  # Call the base class's to_dict() method
-
-    #     if self.garden_area:
-    #         new_dict["garden_area_name"] = self.garden_area.name
-
-    #     return new_dict

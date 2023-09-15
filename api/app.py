@@ -20,7 +20,6 @@ Outputs:
 from flask import Flask
 from flask import jsonify
 from flask_cors import CORS
-
 from models import storage
 from api.views import app_views
 import os
@@ -33,7 +32,8 @@ app.register_blueprint(app_views)
 
 
 # Implementation of CORS to enable access from any origin
-CORS(app, resources={r"/api/*": {"origins": "0.0.0.0"}})
+CORS(app)
+# CORS(app, resources={r"/api/*": {"origins": "0.0.0.0"}})
 
 
 @app.errorhandler(404)
