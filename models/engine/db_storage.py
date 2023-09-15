@@ -16,18 +16,21 @@ Inputs:
 Outputs:
     Methods for interacting with a MySQL database, including querying, adding, deleting, and saving objects.
 """
-
 import models
 from models.base_model import BaseModel, Base
 from models.vegetable_manager import VegetableManager
 from models.garden_area import GardenArea
 from models.sensors import Sensors
 from models.soil_moisture_set import SoilMoistureSet
-from os import getenv
+import os 
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 import json
+from dotenv import load_dotenv
+
+# Load environment variables from the .env file
+load_dotenv()
 
 classes = {
     "GardenArea": GardenArea,
@@ -48,21 +51,12 @@ class DBStorage:
         """
         Instantiate a DBStorage object
         """
-
-        
-        # Access database configuration values
-        # GREENHOUSE_MYSQL_USER = "u105014328_greenhouse_dev"
-        # GREENHOUSE_MYSQL_PWD = "Greenhouse_pwd1"
-        # GREENHOUSE_MYSQL_HOST = "153.92.220.101"
-        # GREENHOUSE_MYSQL_DB = "u105014328_greenhouse"
-        # GREENHOUSE_ENV = getenv('HBNB_ENV')
-
-        GREENHOUSE_MYSQL_USER = "greenhouse_dev"
-        GREENHOUSE_MYSQL_PWD = "AVNS_I6mOdk372jRm8stpS0d"
-        GREENHOUSE_MYSQL_HOST = "db-mysql-ams3-26566-do-user-14634177-0.b.db.ondigitalocean.com"
-        GREENHOUSE_MYSQL_DB = "greenhouse_db"
-        GREENHOUSE_MYSQL_PORT = 25060
-        GREENHOUSE_ENV = getenv('HBNB_ENV')
+        # Access the environment variables
+        GREENHOUSE_MYSQL_USER = os.environ.get('GREENHOUSE_MYSQL_USER')
+        GREENHOUSE_MYSQL_PWD = os.environ.get('GREENHOUSE_MYSQL_PWD')
+        GREENHOUSE_MYSQL_HOST = os.environ.get('GREENHOUSE_MYSQL_HOST')
+        GREENHOUSE_MYSQL_DB = os.environ.get('GREENHOUSE_MYSQL_DB')
+        GREENHOUSE_MYSQL_PORT = os.environ.get('GREENHOUSE_MYSQL_PORT')
 
         self.__engine = create_engine('mysql+mysqldb://{}:{}@{}:{}/{}'.
                                       format(GREENHOUSE_MYSQL_USER,
@@ -70,8 +64,8 @@ class DBStorage:
                                              GREENHOUSE_MYSQL_HOST,
                                              GREENHOUSE_MYSQL_PORT,
                                              GREENHOUSE_MYSQL_DB))
-        if GREENHOUSE_ENV == "test":
-            Base.metadata.drop_all(self.__engine)
+        # if GREENHOUSE_ENV == "test":
+        #     Base.metadata.drop_all(self.__engine)
 
     def all(self, cls=None):
         """
