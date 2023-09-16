@@ -22,6 +22,7 @@ from models.vegetable_manager import VegetableManager
 from models.garden_area import GardenArea
 from models.sensors import Sensors
 from models.soil_moisture_set import SoilMoistureSet
+from models.to_do_list import ToDoList
 import os 
 import sqlalchemy
 from sqlalchemy import create_engine
@@ -36,7 +37,8 @@ classes = {
     "GardenArea": GardenArea,
     "VegetableManager": VegetableManager,
     "Sensors": Sensors,
-    "SoilMoistureSet": SoilMoistureSet
+    "SoilMoistureSet": SoilMoistureSet,
+    "ToDoList": ToDoList
 }
 
 
