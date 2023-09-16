@@ -56,8 +56,8 @@ def create_vegetable_manager():
     data = request.get_json()
     if not data:
         return jsonify({"error": "Not a JSON"}), 400
-    if "name" not in data:
-        return jsonify({"error": "Missing name"}), 400
+    # if "name" not in data:
+    #     return jsonify({"error": "Missing name"}), 400
     new_vegetable = VegetableManager(**data)
     new_vegetable.save()
     return jsonify(new_vegetable.to_dict()), 201

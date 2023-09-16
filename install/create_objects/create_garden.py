@@ -19,7 +19,7 @@ import sys
 
 
 def create_garden_area(name, surface, notes):
-    url = "http://127.0.0.1:5001/api/garden_area"
+    url = "http://127.0.0.1:5001/api/vegetable_infos"
     headers = {"Content-Type": "application/json"}
 
     data = {

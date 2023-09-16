@@ -7,6 +7,7 @@ from models import storage
 from models.sensors import Sensors
 from models.soil_moisture_set import SoilMoistureSet
 import json
+from datetime import datetime, date
 
 
 
@@ -106,3 +107,30 @@ def set_moisture_to_watering():
     new_soil_moisture_set.save()
     return jsonify(new_soil_moisture_set.to_dict()) , 201
 
+
+@app_views.route('/sensors/chart/<start_date>/<end_date>', methods=['GET'], strict_slashes=False)
+def get_chart_sensor(start_date, end_date):
+    """
+    Retrieves the sensor values for a given date range
+    and returns them as a JSON object.
+    """
+    sensors = storage.all(Sensors).values()
+    sorted_sensors = sorted(sensors, key=lambda sensor: sensor.created_at, reverse=True)
+    try:
+        start_date = datetime.strptime(start_date, "%Y-%m-%d").date()
+        end_date = datetime.strptime(end_date, "%Y-%m-%d").date()
+    except ValueError:
+        return jsonify({"error": "Invalid date format. Use YYYY-MM-DD."}), 400
+
+    matching_sensors = []
+
+    for item in sensors:
+        item_date = item.created_at.date()  # Extract only the date part
+        if start_date <= item_date <= end_date:
+            matching_sensors.append(item.to_dict())
+
+    if matching_sensors:
+        return jsonify(matching_sensors)
+    else:
+        # Handle the case where there are no matching sensors
+        return jsonify({"message": "No sensor data available for the specified date range"}), 404

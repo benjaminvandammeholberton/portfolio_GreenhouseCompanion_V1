@@ -16,18 +16,20 @@ Inputs:
 Outputs:
     Methods for interacting with a MySQL database, including querying, adding, deleting, and saving objects.
 """
+from dotenv import load_dotenv
+import json
 import models
 from models.base_model import BaseModel, Base
-from models.vegetable_manager import VegetableManager
 from models.garden_area import GardenArea
 from models.sensors import Sensors
 from models.soil_moisture_set import SoilMoistureSet
+from models.to_do_list import ToDoList
+from models.vegetable_infos import VegetableInfos
+from models.vegetable_manager import VegetableManager
 import os 
 import sqlalchemy
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
-import json
-from dotenv import load_dotenv
 
 # Load environment variables from the .env file
 load_dotenv()
@@ -36,7 +38,9 @@ classes = {
     "GardenArea": GardenArea,
     "VegetableManager": VegetableManager,
     "Sensors": Sensors,
-    "SoilMoistureSet": SoilMoistureSet
+    "SoilMoistureSet": SoilMoistureSet,
+    "ToDoList": ToDoList,
+    "VegetableInfos": VegetableInfos
 }
 
 
