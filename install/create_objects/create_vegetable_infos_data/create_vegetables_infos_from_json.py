@@ -7,7 +7,7 @@ headers = {"Content-Type": "application/json"}
 
 # date format : YYYY-MM-DD
 
-with open("install/create_objects/data_vegetable_infos.json", "r") as file:
+with open("data_vegetable_infos.json", "r") as file:
     data = json.load(file)
 for item in data:
     print(item)

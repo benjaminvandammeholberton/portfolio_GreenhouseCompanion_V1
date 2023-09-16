@@ -22,6 +22,7 @@ class VegetableInfos(BaseModel, Base):
     description = Column(String(250))
     plant_per_m2 = Column(Float)
 
+    vegetable_manager = relationship("VegetableManager", backref="vegetable_infos")
     def __init__(self, *args, **kwargs):
         """initializes VegetableInfos"""
         super().__init__(*args, **kwargs)
