@@ -26,6 +26,8 @@ class TestToDoListDocs(unittest.TestCase):
         self.assertEqual(result.total_errors, 0,
                          "Found code style errors (and warnings).")
 
+    #  pycodestyle and flake8 dont return any error
+    #that's why this test is in comment
     # def test_pep8_conformance_test_to_do_list(self):
     #     """Test that tests/test_api/test_views/test_to_do_list.py
     #     conforms to PEP8."""
