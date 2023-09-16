@@ -25,7 +25,7 @@ def get_one_vegetable_infos(vegetable_id):
     """
     vegetable = storage.get(VegetableInfos, vegetable_id)
     if vegetable:
-        return jsonify(vegetable.to_dict())
+        return jsonify(vegetable.to_dict()), 200
     abort(404)
 
 
