@@ -1,4 +1,3 @@
-#!/usr/bin/python
 """ holds class VegetableInfos"""
 import models
 from models.base_model import BaseModel, Base
