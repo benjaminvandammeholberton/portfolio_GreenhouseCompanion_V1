@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Charts</title>
+</head>
+
+<body>
+    <div class="graph-container" style="width: 1500px;">
+        <canvas id="graph"></canvas>
+    </div>
+
+
+
+    <script>
+        var ctx = document.getElementById('graph').getContext('2d');
+
+        function formatHour(dateString) {
+            const date = new Date(dateString);
+            const hour = date.getHours();
+            const minute = date.getMinutes();
+            return `${hour}:${minute < 10 ? '0' : ''}${minute}`;
+        }
+
+        // Function to fetch data from the API
+        function fetchData() {
+            // Replace 'API_ENDPOINT' with the actual API endpoint URL
+            fetch('http://192.168.1.104:5001/api/sensors')
+                .then(response => response.json())
+                .then(apiData => {
+                    apiData.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));
+                    data.labels = apiData.map(item => formatHour(item.created_at));
+                    data.datasets[0].data = apiData.map(item => item.soil_humidity_1);
+                    data.datasets[1].data = apiData.map(item => item.soil_humidity_2);
+                    data.datasets[2].data = apiData.map(item => item.soil_humidity_3);
+                    data.datasets[3].data = apiData.map(item => 2500);
+                    var graph = new Chart(ctx, config);
+                })
+                .catch(error => console.error('Error fetching data:', error));
+        }
+
+        var data = {
+            labels: [],
+            datasets: [
+                {
+                    label: 'Soil Humidity 1',
+                    data: [],
+                    borderColor: 'blue',
+                    pointRadius: 0,
+                    pointHoverRadius: 2,
+                    borderWidth: 1,
+                },
+                {
+                    label: 'Soil Humidity 2',
+                    data: [],
+                    borderColor: 'green',
+                    pointRadius: 0,
+                    pointHoverRadius: 2,
+                    borderWidth: 1,
+                },
+                {
+                    label: 'Soil Humidity 3',
+                    data: [],
+                    borderColor: 'black',
+                    pointRadius: 0,
+                    pointHoverRadius: 2,
+                    borderWidth: 1,
+                },
+                {
+                    label: 'Limit',
+                    data: [],
+                    borderColor: 'red',
+                    pointRadius: 0,
+                    pointHoverRadius: 2,
+                    borderWidth: 1,
+                },
+            ]
+        };
+
+        var options = {
+            // Chart configuration options (e.g., title, scales, etc.)
+        };
+
+        var config = {
+            type: 'line',
+            data: data,
+            options: {
+                scales: {
+                    y: { // Defining min and max so hiding the dataset does not change scale range
+                        min: 1200,
+                        max: 3000
+                    },
+                    x: {
+                        // type: 'time', // Use the time scale for the x-axis
+                        // time: {
+                        //     unit: 'hour', // Display ticks at hourly intervals
+                        //     displayFormats: {
+                        //         hour: 'HH:mm', // Format for the label (hour:minute)
+                        //     },
+                        // },
+                        ticks: {
+                            source: 'data', // Display labels based on the data points
+                            maxRotation: 50, // Rotate label text if needed
+                            autoSkip: true, // Automatically skip labels to prevent overlapping
+                            maxTicksLimit: 24,
+                        },
+                    },
+                }
+            }
+        };
+
+        // Call the fetchData function to fetch and populate data
+        fetchData();
+    </script>
+</body>
+
+</html>
