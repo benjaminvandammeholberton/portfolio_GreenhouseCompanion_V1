@@ -4,10 +4,16 @@ document.addEventListener("DOMContentLoaded", function(){
     const sensorValueRightElement = document.getElementById('sensor_value_right');
     
     // Define the API URL you want to fetch data from
-    const apiUrl = 'http://192.168.1.104:5001/api/sensors/last';
+    const apiUrl = 'https://3d31-2a02-8440-7210-c736-d801-5759-6536-b965.ngrok-free.app/api/sensors/last';
+    // Define headers to include in the request
+    const headers = new Headers();
+    headers.append('ngrok-skip-browser-warning', '1'); // Set the ngrok-skip-browser-warning header
 
-    // Fetch data from the API
-    fetch(apiUrl)
+    // Fetch data from the API with headers
+    fetch(apiUrl, {
+        method: 'GET',
+        headers: headers
+    })
         .then(response => response.json()) // Assuming the API returns JSON data
         .then(data => {
             const soilHumidity1Value = data.soil_humidity_1;

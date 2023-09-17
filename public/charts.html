@@ -28,8 +28,17 @@
 
         // Function to fetch data from the API
         function fetchData() {
-            // Replace 'API_ENDPOINT' with the actual API endpoint URL
-            fetch('http://192.168.1.104:5001/api/sensors')
+            const apiUrl = 'https://3d31-2a02-8440-7210-c736-d801-5759-6536-b965.ngrok-free.app/api/sensors';
+            // Define headers to include in the request
+            const headers = new Headers();
+            headers.append('ngrok-skip-browser-warning', '1'); // Set the ngrok-skip-browser-warning header
+
+            // Fetch data from the API with headers
+            fetch(apiUrl, {
+                method: 'GET',
+                headers: headers
+            })
+                // Replace 'API_ENDPOINT' with the actual API endpoint URL
                 .then(response => response.json())
                 .then(apiData => {
                     apiData.sort((a, b) => new Date(a.created_at) - new Date(b.created_at));

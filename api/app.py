@@ -32,7 +32,9 @@ app.register_blueprint(app_views)
 
 
 # Implementation of CORS to enable access from any origin
-CORS(app)
+CORS(app, resources={r"/api/*": {"origins": "*"}})
+# CORS(app, resources={r"/api/*": {"origins": "http://127.0.0.1:5500"}})
+# CORS(app)
 # CORS(app, resources={r"/api/*": {"origins": "0.0.0.0"}})
 
 
