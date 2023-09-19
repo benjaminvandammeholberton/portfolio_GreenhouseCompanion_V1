@@ -69,14 +69,14 @@ def create_sensors():
         return jsonify({"error": "Not a JSON"}), 400
     print(f"received : {data}")
 
-    # get the last soil_moisture_set
-    soilmoistureset = storage.all(SoilMoistureSet).values()
-    sorted_data = sorted(soilmoistureset, key=lambda sensor: sensor.created_at, reverse=True)
-    if sorted_data:
-        last_soil_moisture_set = sorted_data[0]        
-    soil_moisture_selection_left = last_soil_moisture_set.soil_moisture_selection_left
-    soil_moisture_selection_middle = last_soil_moisture_set.soil_moisture_selection_middle
-    soil_moisture_selection_right = last_soil_moisture_set.soil_moisture_selection_right
+    # # get the last soil_moisture_set
+    # soilmoistureset = storage.all(SoilMoistureSet).values()
+    # sorted_data = sorted(soilmoistureset, key=lambda sensor: sensor.created_at, reverse=True)
+    # if sorted_data:
+    #     last_soil_moisture_set = sorted_data[0]        
+    # soil_moisture_selection_left = last_soil_moisture_set.soil_moisture_selection_left
+    # soil_moisture_selection_middle = last_soil_moisture_set.soil_moisture_selection_middle
+    # soil_moisture_selection_right = last_soil_moisture_set.soil_moisture_selection_right
 
     # Load the sensor values into the database
     new_sensor = Sensors(**data)
@@ -85,27 +85,26 @@ def create_sensors():
     # preparing the response in comparing the soil moisture sensor value with
     # the soil moisture value set by the user
     response = {}
-    if new_sensor.soil_humidity_1 > soil_moisture_selection_left:
-        response['WaterPumpLeftState']= True
-    if new_sensor.soil_humidity_2 > soil_moisture_selection_middle:
-        response['WaterPumpMiddleState'] = True
-    if new_sensor.soil_humidity_3 > soil_moisture_selection_right:
-        response['WaterPumpRRightState'] = True
+    # if new_sensor.air_humidity > humidity_selection:
+    #     response['Extractor']= True
+    # if new_sensor.air_temperature > temperature_selection:
+    #     response['Extractor']= True
+
     json_str = json.dumps(response, indent=4)
     print(f"response: {json_str}")
     return jsonify(response) , 201
 
 
-@app_views.route('/sensors/set_moisture', methods=['POST'], strict_slashes=False)
-def set_moisture_to_watering():
-    """
-    """
-    data = request.get_json()
-    if not data:
-        return jsonify({"error": "Not a JSON"}), 400
-    new_soil_moisture_set = SoilMoistureSet(**data)
-    new_soil_moisture_set.save()
-    return jsonify(new_soil_moisture_set.to_dict()) , 201
+# @app_views.route('/sensors/set_moisture', methods=['POST'], strict_slashes=False)
+# def set_moisture_to_watering():
+#     """
+#     """
+#     data = request.get_json()
+#     if not data:
+#         return jsonify({"error": "Not a JSON"}), 400
+#     new_soil_moisture_set = SoilMoistureSet(**data)
+#     new_soil_moisture_set.save()
+#     return jsonify(new_soil_moisture_set.to_dict()) , 201
 
 
 @app_views.route('/sensors/chart/<start_date>/<end_date>', methods=['GET'], strict_slashes=False)

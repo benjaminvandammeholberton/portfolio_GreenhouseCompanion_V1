@@ -11,9 +11,8 @@ from sqlalchemy.orm import relationship
 class SoilMoistureSet(BaseModel, Base):
     """Representation of SoilMoistureSet"""
     __tablename__ = 'soil_moisture_set'
-    soil_moisture_selection_left = Column(Integer)
-    soil_moisture_selection_middle = Column(Integer)
-    soil_moisture_selection_right = Column(Integer)
+    humidity_selection = Column(Integer)
+    temperature_selection = Column(Integer)
     
 
     def __init__(self, *args, **kwargs):
